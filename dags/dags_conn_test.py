@@ -11,7 +11,7 @@ with DAG(
 ) as dag:
     
     t1 = EmptyOperator(
-        rask_id="t1"
+        task_id="t1"
     )
 
     t2 = EmptyOperator(
