@@ -27,7 +27,7 @@ with DAG(
     )
 
     t5 = EmptyOperator(
-        taski_id="t5"
+        task_id="t5"
     )
 
     t6 = EmptyOperator(
