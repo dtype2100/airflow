@@ -11,7 +11,7 @@ with DAG(
 ) as dag:
     
     t1_orange = BashOperator(
-        taski_id="t1_orange",
+        task_id="t1_orange",
         bash_command="/opt/airflow/plugins/shell/select_fruit.sh ORANGE",
     )
 
